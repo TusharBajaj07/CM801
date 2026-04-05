@@ -1,0 +1,30 @@
+# Large raster data files (download from ESRI Living Atlas)
+*.tif
+
+# Virtual environment
+.venv/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# OS files
+.DS_Store
+
+# DataMeet maps repo (can be cloned separately)
+datameet_maps/
+
+# Shapefiles (generated during analysis)
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# Claude settings
+.claude/
